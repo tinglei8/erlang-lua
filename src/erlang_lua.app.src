@@ -1,6 +1,6 @@
 { application, erlang_lua, [
     { description, "Erlang-Lua" },
-    { vsn, "0.1" },
+    { vsn, "0.1.0" },
     { applications, [
         kernel,
         stdlib
