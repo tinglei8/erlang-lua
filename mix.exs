@@ -3,7 +3,7 @@ defmodule ErlangLua.Mixfile do
 
   def project do
     [app: :erlang_lua,
-     version: "0.0.1",
+     version: "0.1.0",
      elixir: ">= 1.0.3",
      description: description,
      package: package]
@@ -17,7 +17,7 @@ defmodule ErlangLua.Mixfile do
 
   defp package do
     [files: ["c_src", "src", "test", "README.md", "CHANGES", "Makefile", "rebar", "rebar.config"],
-     contributors: ["Robby Raschke"],
+     contributors: ["Robby Raschke", "Lei Ting"],
      licenses: ["MIT"],
      links: %{"GitHub" => "https://github.com/rtraschke/erlang-lua"}]
   end
